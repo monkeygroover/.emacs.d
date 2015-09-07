@@ -8,11 +8,6 @@
   clojure-mode
   cider
   paredit
-;; Haskell
-  haskell-mode
-;; OCaml
-  tuareg
-  utop
 ;; Javascript
   js2-mode
 ;; General
@@ -24,10 +19,6 @@
   sublime-themes
   noctilux-theme
   monokai-theme
-;; Swift
-  swift-mode
-;; Python
-  python-mode
 ))
 
 (package-initialize)

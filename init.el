@@ -1,8 +1,3 @@
-;;--------------------------------------------------------------------------------;;
-;;                                                                                ;;
-;; Emacs config <owain@owainlewis.com>                                            ;;
-;;                                                                                ;;
-;;--------------------------------------------------------------------------------;;
 
 ;; Enable IDO mode
 (require 'ido)
@@ -41,13 +36,10 @@
 (load "~/.emacs.d/functions.el")
 (load "~/.emacs.d/ui.el")
 
-;; Modes (for good programming languages only)
-;;(load "~/.emacs.d/modes/haskell.el")
+;; Modes
 (load "~/.emacs.d/modes/clojure.el")
 (load "~/.emacs.d/modes/javascript.el")
-;;(load "~/.emacs.d/modes/ocaml.el")
-;;(load "~/.emacs.d/modes/python.el")
-;;(load "~/.emacs.d/modes/swift.el")
+
 
 ;; Mode initializers (used to associate file types with emacs modes)
 
@@ -66,4 +58,3 @@
 ;; YA SNIP
 ;;(require 'yasnippet)
 ;;(yas-global-mode 1)
-(add-to-list 'exec-path "~/bin")
