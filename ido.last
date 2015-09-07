@@ -1,0 +1,44 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/vagrant/my_projects/helloworld/src/" . "helloworld/")
+ ("/home/vagrant/my_projects/helloworld/" . "src/")
+ ("/home/vagrant/my_projects/" . "helloworld/")
+ ("/home/vagrant/" . "my_projects/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/vagrant/my_projects/helloworld/src/helloworld/"
+ "/home/vagrant/.lein/"
+ "/home/vagrant/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "core.clj"
+ "profiles.clj"
+ "init.el"
+ "ui.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/vagrant/my_projects/helloworld/" (21997 45915 787684 180000) ".hgignore" "README.md" "./" "LICENSE" "target/" "src/" "project.clj" ".gitignore" "test/" "doc/" "../" "resources/")
+
+ ("/home/vagrant/.lein/" (21997 18025 644807 759000) "./" "profiles.clj" "self-installs/" "../")
+
+ ("/home/vagrant/" (21997 44873 370707 235000) ".IdeaIC14/" ".vimrc" "hs_err_pid19640.log" "./" "Videos/" ".sbt/" "docker-compose.yml" ".vboxclient-seamless.pid" ".gitconfig" "module_list" "lighter_rest_spike.txt" ".sudo_as_admin_successful" ".java/" "mkcast-master/" ".pki/" ".m2/" ".ICEauthority" ".cache/" ".ivy2/" ".ssh/" ".vboxclient-draganddrop.pid" "workspace/" ".gconf/" ".bash_logout" "Downloads/" ".xsession-errors" ".vboxclient-clipboard.pid" ".gnome/" "my_projects/" ".emacs.d/" "tokenisation_tasks" ".profile" "Templates/" "Music/" ".xsession-errors.old" ".lein/" ".bash_history" ".viminfo" ".idea-build/" "Documents/" ".putty/" "../" ".vboxclient-display.pid" "Pictures/" ".local/" ".vim/" "initialise_user_environment.sh" "Desktop/" ".gnupg/" ".Xauthority" ".bashrc" "Public/" ".cf/" ".config/")
+
+ ("/home/vagrant/.emacs.d/" (21997 43625 751174 593000) "README.md" "./" "modes/" "auto-save-list/" "abbrev_defs" ".gitignore" "ac-comphist.dat" "init.el" "functions.el" "utop.el" "packages.el" "ido.last" "ui.el" "keys.el" "../" "elpa/")
+
+ ("/home/vagrant/my_projects/helloworld/src/helloworld/" (21997 30776 465385 808000) "core.clj" "./" "../")
+
+ ("/home/vagrant/my_projects/helloworld/src/" (21997 30776 465385 808000) "./" "helloworld/" "../")
+
+ ("/home/vagrant/my_projects/" (21997 30787 907104 127000) "./" "helloworld/" "YamlGenerator/" "../" ".idea/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
