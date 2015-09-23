@@ -1,4 +1,4 @@
-(if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
+;;(if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 
@@ -23,6 +23,11 @@
 (setq show-trailing-whitespace t)
 
 (setq case-fold-search t)
+
+(setq cua-enable-cua-keys nil)
+(setq cua-highlight-region-shift-only t) ;; no transient mark mode
+(setq cua-toggle-set-mark nil) ;; original set-mark behavior, i.e. no transient-mark-mode
+(cua-mode)
 
 ;;--------------------------------------------------------------------------------;
 
