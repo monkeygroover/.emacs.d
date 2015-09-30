@@ -38,8 +38,6 @@
 
 ;; Modes
 (load "~/.emacs.d/modes/clojure.el")
-(load "~/.emacs.d/modes/javascript.el")
-;;(load "~/.emacs.d/modes/ensime.el")
 
 ;; Mode initializers (used to associate file types with emacs modes)
 
@@ -54,7 +52,3 @@
 (require 'auto-complete-config)
 (ac-config-default)
 (global-auto-complete-mode t)
-
-;; YA SNIP
-;;(require 'yasnippet)
-;;(yas-global-mode 1)
