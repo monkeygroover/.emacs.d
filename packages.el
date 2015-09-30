@@ -8,8 +8,6 @@
   clojure-mode
   cider
   paredit
-;; Javascript
-  js2-mode
 ;; General
   auto-complete
   markdown-mode
@@ -30,4 +28,7 @@
 	(package-install package)))
 
  (mapcar #'package-safe-install
-   (append my-packages))
+	 (append my-packages))
+
+(require 'ensime)
+(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
