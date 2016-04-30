@@ -1,7 +1,4 @@
 elpa
-emacs.el
+edts
 auto-save-list
-tramp
-url
-abbrev_defs
 ac-comphist.dat
